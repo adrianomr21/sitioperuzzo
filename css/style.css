@@ -151,7 +151,7 @@ img {
 
 /* --- SEÇÃO HERO --- */
 .hero {
-    background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url('https://images.unsplash.com/photo-1590725400160-32050bff94e4');
+    background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.9)), url('https://images.unsplash.com/photo-1571977539217-644b8a42ae3c');
     background-size: cover;
     background-position: center;
     height: 100vh;
