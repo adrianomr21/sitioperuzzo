@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sítio Peruzzi - Seu Refúgio na Natureza</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lora:wght@400;600&family=Montserrat:wght@400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <header class="header">
+        <nav class="nav-bar">
+            <a href="#" class="logo">Sítio Peruzzi</a>
+            <div class="nav-list">
+                <ul>
+                    <li class="nav-item"><a href="#sobre" class="nav-link">Sobre</a></li>
+                    <li class="nav-item"><a href="#acomodacoes" class="nav-link">Acomodações</a></li>
+                    <li class="nav-item"><a href="#experiencias" class="nav-link">Experiências</a></li>
+                    <li class="nav-item"><a href="#contato" class="nav-link-btn">Reservar Agora</a></li>
+                </ul>
+            </div>
+            <div class="mobile-menu-icon">
+                <button onclick="menuShow()">
+                    <svg class="icon" xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"/>
+                    </svg>
+                </button>
+            </div>
+        </nav>
+        <div class="mobile-menu">
+            <ul>
+                <li class="nav-item"><a href="#sobre" class="nav-link">Sobre</a></li>
+                <li class="nav-item"><a href="#acomodacoes" class="nav-link">Acomodações</a></li>
+                <li class="nav-item"><a href="#experiencias" class="nav-link">Experiências</a></li>
+            </ul>
+            <a href="#contato" class="nav-link-btn">Reservar Agora</a>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="hero-content">
+                <h1 class="fade-in">Seu refúgio particular na natureza.</h1>
+                <p class="fade-in">Desconecte-se da rotina e reconecte-se com o que importa no Sítio Peruzzi.</p>
+                <a href="#contato" class="btn-primary fade-in">Faça sua reserva</a>
+            </div>
+        </section>
+
+        <section id="sobre" class="container about fade-in">
+            <h2>Uma Experiência Autêntica</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>O Sítio Peruzzi não é apenas uma pousada, é um convite para viver a tranquilidade do campo com o conforto que você merece. Nascido de um sonho familiar, nosso espaço foi pensado para oferecer momentos de paz, lazer e contato genuíno com a natureza.</p>
+                    <p>Com chalés aconchegantes, gastronomia local e uma paisagem de tirar o fôlego, cada detalhe foi criado para tornar sua estadia inesquecível.</p>
+                </div>
+                <div class="about-image">
+                    <!-- IMAGEM PLACEHOLDER: Vista da varanda de um chalé -->
+                    <img src="https://images.unsplash.com/photo-1570129477492-45c003edd2be?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80" alt="Vista aconchegante do Sítio Peruzzi">
+                </div>
+            </div>
+        </section>
+
+        <section id="acomodacoes" class="container features fade-in">
+            <h2>Conforto e Natureza</h2>
+            <div class="feature-cards">
+                <div class="card">
+                    <!-- IMAGEM PLACEHOLDER: Interior de um chalé rústico e moderno -->
+                    <img src="https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1632&q=80" alt="Chalé Aconchegante">
+                    <h3>Chalés Privativos</h3>
+                    <p>Nossos chalés combinam design rústico e moderno, equipados com tudo o que você precisa para uma estadia relaxante.</p>
+                </div>
+                <div class="card">
+                    <!-- IMAGEM PLACEHOLDER: Mesa de café da manhã de fazenda -->
+                    <img src="https://images.unsplash.com/photo-1414235077428-338989a2e8c0?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80" alt="Gastronomia Local">
+                    <h3>Gastronomia Local</h3>
+                    <p>Desfrute de um café da manhã colonial e pratos feitos com ingredientes frescos, colhidos diretamente de nossa horta.</p>
+                </div>
+                <div class="card">
+                    <!-- IMAGEM PLACEHOLDER: Piscina com borda infinita para a natureza -->
+                    <img src="https://images.unsplash.com/photo-1571003123894-1f0594d2b5d9?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1649&q=80" alt="Piscina Natural">
+                    <h3>Piscina e Lazer</h3>
+                    <p>Relaxe em nossa piscina com vista para as montanhas ou explore nossas trilhas ecológicas e cachoeiras próximas.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="experiencias" class="container experiences fade-in">
+            <h2>O que fazer no Sítio Peruzzi</h2>
+            <ul>
+                <li><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16"><path d="M8 16a.5.5 0 0 0 .5-.5V3.414l2.293 2.293a.5.5 0 0 0 .707-.707l-3-3a.5.5 0 0 0-.707 0l-3 3a.5.5 0 1 0 .707.707L7.5 3.414V15.5a.5.5 0 0 0 .5.5z"/></svg> Trilhas ecológicas guiadas</li>
+                <li><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16"><path d="M8 16a.5.5 0 0 0 .5-.5V3.414l2.293 2.293a.5.5 0 0 0 .707-.707l-3-3a.5.5 0 0 0-.707 0l-3 3a.5.5 0 1 0 .707.707L7.5 3.414V15.5a.5.5 0 0 0 .5.5z"/></svg> Passeios a cavalo</li>
+                <li><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16"><path d="M8 16a.5.5 0 0 0 .5-.5V3.414l2.293 2.293a.5.5 0 0 0 .707-.707l-3-3a.5.5 0 0 0-.707 0l-3 3a.5.5 0 1 0 .707.707L7.5 3.414V15.5a.5.5 0 0 0 .5.5z"/></svg> Piquenique nas montanhas</li>
+                <li><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16"><path d="M8 16a.5.5 0 0 0 .5-.5V3.414l2.293 2.293a.5.5 0 0 0 .707-.707l-3-3a.5.5 0 0 0-.707 0l-3 3a.5.5 0 1 0 .707.707L7.5 3.414V15.5a.5.5 0 0 0 .5.5z"/></svg> Oficina de culinária regional</li>
+                <li><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16"><path d="M8 16a.5.5 0 0 0 .5-.5V3.414l2.293 2.293a.5.5 0 0 0 .707-.707l-3-3a.5.5 0 0 0-.707 0l-3 3a.5.5 0 1 0 .707.707L7.5 3.414V15.5a.5.5 0 0 0 .5.5z"/></svg> Noites de fogueira e estrelas</li>
+            </ul>
+        </section>
+
+        <section id="contato" class="contact-section fade-in">
+            <div class="container">
+                <h2>Está pronto para sua escapada?</h2>
+                <p>Entre em contato conosco para verificar a disponibilidade e garantir sua reserva.</p>
+                <a href="https://wa.me/5511999999999" target="_blank" class="btn-primary">Reservar pelo WhatsApp</a>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 Sítio Peruzzi. Todos os direitos reservados.</p>
+            <p>Estrada da Montanha, km 5 - Zona Rural, Cidade Fictícia/SP</p>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
